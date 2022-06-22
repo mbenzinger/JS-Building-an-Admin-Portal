@@ -23,7 +23,7 @@ bookList.forEach(book => {
             headers: {
                 'content-Type': 'application/json'
             },
-            body: json.stringify({
+            body: JSON.stringify({
                 id: book.id,
                 quantity: textInput.value
             }),
